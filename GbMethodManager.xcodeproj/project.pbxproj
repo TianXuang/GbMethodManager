@@ -16,6 +16,7 @@
 		714120131F2ED7FA00459ECA /* GbMethodManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 714120121F2ED7FA00459ECA /* GbMethodManagerTests.m */; };
 		7141201E1F2ED7FA00459ECA /* GbMethodManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141201D1F2ED7FA00459ECA /* GbMethodManagerUITests.m */; };
 		7141202D1F2ED82600459ECA /* GbMethodManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141202C1F2ED82600459ECA /* GbMethodManager.m */; };
+		71F6D3DE1F31A9CD0095BA5A /* UIView+cornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F6D3DD1F31A9CD0095BA5A /* UIView+cornerRadius.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		7141201F1F2ED7FA00459ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7141202B1F2ED82600459ECA /* GbMethodManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GbMethodManager.h; sourceTree = "<group>"; };
 		7141202C1F2ED82600459ECA /* GbMethodManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GbMethodManager.m; sourceTree = "<group>"; };
+		71F6D3DC1F31A9CD0095BA5A /* UIView+cornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+cornerRadius.h"; sourceTree = "<group>"; };
+		71F6D3DD1F31A9CD0095BA5A /* UIView+cornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+cornerRadius.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 				71411FFC1F2ED7FA00459ECA /* AppDelegate.m */,
 				71411FFE1F2ED7FA00459ECA /* ViewController.h */,
 				71411FFF1F2ED7FA00459ECA /* ViewController.m */,
+				71F6D3DC1F31A9CD0095BA5A /* UIView+cornerRadius.h */,
+				71F6D3DD1F31A9CD0095BA5A /* UIView+cornerRadius.m */,
 				7141202B1F2ED82600459ECA /* GbMethodManager.h */,
 				7141202C1F2ED82600459ECA /* GbMethodManager.m */,
 				714120011F2ED7FA00459ECA /* Main.storyboard */,
@@ -285,6 +290,7 @@
 				7141202D1F2ED82600459ECA /* GbMethodManager.m in Sources */,
 				71411FFD1F2ED7FA00459ECA /* AppDelegate.m in Sources */,
 				71411FFA1F2ED7FA00459ECA /* main.m in Sources */,
+				71F6D3DE1F31A9CD0095BA5A /* UIView+cornerRadius.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
