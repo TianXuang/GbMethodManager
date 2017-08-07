@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "GbMethodManager.h"
+#import "UIView+cornerRadius.m"
 @interface ViewController ()
 
 @end
@@ -19,6 +20,11 @@
     // Do any additional setup after loading the view, typically from a nib.
    NSLog(@"%@",[GbMethodManager stringNumberToString:@"12.345" WithDotNumber:2]);
 
+    UIImageView *image=[[UIImageView alloc]init];
+    image.frame=CGRectMake(0, 100, 100, 100);
+    image.image=[UIImage imageNamed:@"java.png"];
+    [image cutViewForCornerRadiusSize:50];
+    [self.view addSubview:image];
 }
 
 
