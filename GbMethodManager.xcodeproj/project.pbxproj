@@ -16,7 +16,7 @@
 		714120131F2ED7FA00459ECA /* GbMethodManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 714120121F2ED7FA00459ECA /* GbMethodManagerTests.m */; };
 		7141201E1F2ED7FA00459ECA /* GbMethodManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141201D1F2ED7FA00459ECA /* GbMethodManagerUITests.m */; };
 		7141202D1F2ED82600459ECA /* GbMethodManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7141202C1F2ED82600459ECA /* GbMethodManager.m */; };
-		71F6D3DE1F31A9CD0095BA5A /* UIView+cornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F6D3DD1F31A9CD0095BA5A /* UIView+cornerRadius.m */; };
+		714D09B71F5703E60037CE29 /* UIView+cornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 714D09B61F5703E60037CE29 /* UIView+cornerRadius.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +55,8 @@
 		7141201F1F2ED7FA00459ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7141202B1F2ED82600459ECA /* GbMethodManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GbMethodManager.h; sourceTree = "<group>"; };
 		7141202C1F2ED82600459ECA /* GbMethodManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GbMethodManager.m; sourceTree = "<group>"; };
-		71F6D3DC1F31A9CD0095BA5A /* UIView+cornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+cornerRadius.h"; sourceTree = "<group>"; };
-		71F6D3DD1F31A9CD0095BA5A /* UIView+cornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+cornerRadius.m"; sourceTree = "<group>"; };
+		714D09B51F5703E60037CE29 /* UIView+cornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+cornerRadius.h"; sourceTree = "<group>"; };
+		714D09B61F5703E60037CE29 /* UIView+cornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+cornerRadius.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,10 +111,9 @@
 				71411FFC1F2ED7FA00459ECA /* AppDelegate.m */,
 				71411FFE1F2ED7FA00459ECA /* ViewController.h */,
 				71411FFF1F2ED7FA00459ECA /* ViewController.m */,
-				71F6D3DC1F31A9CD0095BA5A /* UIView+cornerRadius.h */,
-				71F6D3DD1F31A9CD0095BA5A /* UIView+cornerRadius.m */,
 				7141202B1F2ED82600459ECA /* GbMethodManager.h */,
 				7141202C1F2ED82600459ECA /* GbMethodManager.m */,
+				714D09B41F5703E60037CE29 /* 圆角分类 */,
 				714120011F2ED7FA00459ECA /* Main.storyboard */,
 				714120041F2ED7FA00459ECA /* Assets.xcassets */,
 				714120061F2ED7FA00459ECA /* LaunchScreen.storyboard */,
@@ -148,6 +147,15 @@
 				7141201F1F2ED7FA00459ECA /* Info.plist */,
 			);
 			path = GbMethodManagerUITests;
+			sourceTree = "<group>";
+		};
+		714D09B41F5703E60037CE29 /* 圆角分类 */ = {
+			isa = PBXGroup;
+			children = (
+				714D09B51F5703E60037CE29 /* UIView+cornerRadius.h */,
+				714D09B61F5703E60037CE29 /* UIView+cornerRadius.m */,
+			);
+			path = "圆角分类";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,7 +298,7 @@
 				7141202D1F2ED82600459ECA /* GbMethodManager.m in Sources */,
 				71411FFD1F2ED7FA00459ECA /* AppDelegate.m in Sources */,
 				71411FFA1F2ED7FA00459ECA /* main.m in Sources */,
-				71F6D3DE1F31A9CD0095BA5A /* UIView+cornerRadius.m in Sources */,
+				714D09B71F5703E60037CE29 /* UIView+cornerRadius.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
